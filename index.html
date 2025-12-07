@@ -1,114 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <div class="container">
-     <div id="box1">
-        RED BOX
+    <nav class="navbar">
+        <ul class="logo">Sajan</ul>
+
+        <a href="#loginform">Form</a>
+        <a href="#colouredtable">Table</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+
+    </nav>
+    <br>
+    <br>
+
+    <div class="container">
+        <div id="box1">
+            RED BOX
+        </div>
+        <div id="box2">
+            BLUE BOX
+        </div>
+        <div id="box3">
+            GREEN BOX
+        </div>
+        <div id="box4">
+            ORANGE BOX
+        </div>
     </div>
-    <div id="box2">
-        BLUE BOX
-    </div>
-    <div id="box3">
-        GREEN BOX
-    </div>
-    <div id="box4">
-        ORANGE BOX
-    </div>
-   </div>
-   <hr>
-   <h1><u><b><i>Table with colspan and rowspan concept:</b></u></i></h1>
-   <table border="1">
-    <tr>
-        <th rowspan="2">S.N</th>
-        <th colspan="2">Name</th>
-        <th rowspan="2">Phone</th>
-        <th rowspan="2">Email</th>
-    </tr>
+    <hr>
+    <h1><u><b><i>Table with colspan and rowspan concept:</b></u></i></h1>
+    <table border="1">
+        <tr>
+            <th rowspan="2">S.N</th>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Phone</th>
+            <th rowspan="2">Email</th>
+        </tr>
 
-    <tr>
-        <th>F</th>
-        <th>L</th>
-    </tr>
+        <tr>
+            <th>F</th>
+            <th>L</th>
+        </tr>
 
-    <tr>
-        <td>1</td>
-        <td>Ram</td>
-        <td>Thapa</td>
-        <td>9834254234</td>
-        <td>ram@gmail.com</td>
-    </tr>
+        <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td>Thapa</td>
+            <td>9834254234</td>
+            <td>ram@gmail.com</td>
+        </tr>
 
-    <tr>
-        <td>2</td>
-        <td>Shyam</td>
-        <td>Tamang</td>
-        <td>981234325</td>
-        <td>shyam@gmail.com</td>
-    </tr>
+        <tr>
+            <td>2</td>
+            <td>Shyam</td>
+            <td>Tamang</td>
+            <td>981234325</td>
+            <td>shyam@gmail.com</td>
+        </tr>
 
-    <tr>
-        <td>3</td>
-        <td>Hari</td>
-        <td>Shrestha</td>
-        <td>972345523</td>
-        <td>hari@gmail.com</td>
-    </tr>
-</table>
-<br><br><br><br><table border="">
-    <tr>
-        <th rowspan="2">S.N</th>
-        <th rowspan="2">Particulaars</th>
-        <th colspan="2">Amount</th>
+        <tr>
+            <td>3</td>
+            <td>Hari</td>
+            <td>Shrestha</td>
+            <td>972345523</td>
+            <td>hari@gmail.com</td>
+        </tr>
+    </table>
+    <br><br><br><br>
+    <table border="">
+        <tr>
+            <th rowspan="2">S.N</th>
+            <th rowspan="2">Particulaars</th>
+            <th colspan="2">Amount</th>
 
-    </tr>
-    <tr>
-        <th>Dr.</th>
-        <th>Cr.</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Bank</td>
-        <td>2000</td>
-        <td>2000</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Cash</td>
-        <td>5000</td>
-        <td>5000</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Capital</td>
-        <td>7000</td>
-        <td>7000</td>
-    </tr>
-</table>
+        </tr>
+        <tr>
+            <th>Dr.</th>
+            <th>Cr.</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bank</td>
+            <td>2000</td>
+            <td>2000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Cash</td>
+            <td>5000</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Capital</td>
+            <td>7000</td>
+            <td>7000</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>which is your favourite color?</h2>
+    <form action="">
+        <input type="radio" name="color" value="red"> Red<br>
+        <input type="radio" name="color" value="blue"> Blue<br>
+        <input type="radio" name="color" value="green"> Green<br>
+        <input type="radio" name="color" value="yellow"> Yellow<br>
+        <input type="radio" name="color" value="orange"> Orange<br><br>
+        <label for="choose"></label>
+        <h2>Which is your favourite book?</h2>
+        <select id="choose">
+            <option value="a">Math</option>
+            <option value="b">Science</option>
+            <option value="c">Social</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Submit">
 
 
+    </form>
 
-<hr>
-<form action="" class="form">
-    <div class="login-box">
-    <h2>Login Form</h2>
+    <hr>
+    <h2>Table with blue and pink color</h2>
+    <table id="colouredtable">
+        <tr>
+            <th>SN.</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+        <tr class="r1">
+            <td>1</td>
+            <td>Ram</td>
+            <td>kalanki</td>
+        </tr>
+        <tr class="r2">
+            <td>2</td>
+            <td>Shyam</td>
+            <td>Kathmandu</td>
+        </tr>
+        <tr class="r1">
+            <td>3</td>
+            <td>Hari</td>
+            <td>Bhaktapur</td>
+        </tr>
+        <tr class="r2">
+            <td>4</td>
+            <td>Gita</td>
+            <td>Patan</td>
+    </table>
 
-    <label>Username</label>
-    <input type="text" placeholder="Enter username">
+    <hr>
+    <h2>Login form</h2>
+    <form action="" class="form" id="loginform">
+        <div class="login-box">
 
-    <label>Password</label>
-    <input type="password" placeholder="Enter password">
 
-    <div class="remember">
-        <input type="checkbox" id ="remember">
-        <label for="remember">Remember me</label>
-    </div>
-<button type="submit">Login</button>
-</form>
+            <label>Username</label>
+            <input type="text" placeholder="Enter username">
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password">
+
+            <div class="remember">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+            <button type="submit">Login</button>
+    </form>
+
+
 </body>
+
 </html>
